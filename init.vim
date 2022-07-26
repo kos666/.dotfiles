@@ -170,37 +170,3 @@ vnoremap <Up> <Nop>
 vnoremap <Down> <Nop>
 vnoremap <Left> <Nop>
 vnoremap <Right> <Nop>
-➜  ~ language en_US
-
-call plug#begin()
-        Plug 'sainnhe/everforest'
-        Plug 'preservim/nerdtree'
-        Plug 'kyazdani42/nvim-web-devicons'
-        Plug 'nvim-lua/plenary.nvim' "Dependency
-        Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
-        Plug 'nvim-lualine/lualine.nvim'
-        Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-        Plug 'neovim/nvim-lspconfig'
-        Plug 'rmagatti/goto-preview'
-        Plug 'neovim/nvim-lspconfig'
-        Plug 'hrsh7th/cmp-nvim-lsp'
-        Plug 'hrsh7th/cmp-buffer'
-        Plug 'hrsh7th/cmp-path'
-        Plug 'hrsh7th/cmp-cmdline'
-        Plug 'hrsh7th/nvim-cmp'
-        " For luasnip users.
-        Plug 'L3MON4D3/LuaSnip'
-        Plug 'saadparwaiz1/cmp_luasnip'
-call plug#end()
-
-set number
-set tabstop=4
-set shiftwidth=4
-set signcolumn=number
-set updatetime=300
-set completeopt=menu,menuone,noselect
-
-set termguicolors
-set background=dark
-
-let g:everforest_background = 'hard'
