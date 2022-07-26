@@ -1,3 +1,4 @@
+" Intended for neovim, will rewrite to lua later (never)
 language en_US
 
 call plug#begin()
